@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation in HTML | CodingNepal</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+    <form action="2.html">
+      <h2>Formularul Facut De Petru</h2>
+      <div class="form-group fullname">
+        <label for="fullname">Scrie Numele</label>
+        <input type="text" id="fullname" placeholder="tot Numele">
+      </div>
+      <div class="form-group email">
+        <label for="email">Adresa De Email</label>
+        <input type="text" id="email" placeholder="Adresa De Email">
+      </div>
+      <div class="form-group password">
+        <label for="password">introdu Parola</label>
+        <input type="password" id="password" placeholder="Parola">
+        <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+      </div>
+      <div class="form-group date">
+        <label for="date">Ziua De Nastere</label>
+        <input type="date" id="date" placeholder="Ziua De Nastere">
+      </div>
+      <div class="form-group gender">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="" selected disabled>Selecteazati genderul</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Walmart Bag
+            (optional)
+          </option>
+        </select>
+      </div>
+      <div class="form-group description">
+        <label for="description">Descriete in cateva minute</label>
+        <textarea id="description" placeholder="Descriete"></textarea>
+      </div>
+      <div class="form-group submit-btn">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+
+    <script src="3.js"></script>
+  </body>
+</html>
